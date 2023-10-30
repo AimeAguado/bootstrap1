@@ -1,0 +1,50 @@
+.logo{
+    width: 150px;
+}
+.nav-link{
+    color: white
+}
+img{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.nav-link:hover { 
+color: white;
+}
+.btn-compra{
+    background-color: black;
+    color: white;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#footer--redes{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 150px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+#copyright{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
