@@ -1,0 +1,26 @@
+//FOOTER//
+.footer {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center; // This property is for flex containers, not for the .footer element alone
+    justify-content: center; // This property is for flex containers, not for the .footer element alone
+    margin-top: 100px;
+}
+
+#footer--redes {
+    @include flex-center;
+    @include sizes(width 100%, height none, gap 150px);
+    background-color: black;
+    list-style: none;
+}
+
+#copyright {
+    color: white;
+    background-color: black;
+    @include flex-center;
+}
+
+ul {
+    list-style: none;
+}

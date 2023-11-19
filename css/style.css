@@ -1,50 +1,65 @@
-.logo{
-    width: 150px;
-}
-.nav-link{
-    color: white
-}
-img{
-    width: 100%;
-    flex-wrap: wrap;
-}
-.nav-link:hover { 
-color: white;
-}
-.btn-compra{
-    background-color: black;
-    color: white;
+img {
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-/*footer*/
-.footer{
-    background-color: black;
-    color: white;
-    height: 10vh;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-#footer--redes{
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-    gap: 150px;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    list-style: none;
-}
-#copyright{
-    color: white;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+.btn-compra {
+  background-color: black;
+  color: white;
 }
 
-ul{
-    list-style: none;
+.logo {
+  width: 150px;
 }
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+
+body {
+  width: width 100%;
+  height: height 100vh;
+  gap: gap none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#footer--redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: width 100%;
+  height: height none;
+  gap: gap 150px;
+  background-color: black;
+  list-style: none;
+}
+
+#copyright {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
