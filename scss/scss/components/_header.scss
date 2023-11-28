@@ -1,0 +1,17 @@
+//HEADER Y BODY//
+.logo {
+    width: 150px;
+}
+
+.nav-link {
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}
+
+body {
+    @include sizes(width 100%,height 100vh, gap none);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

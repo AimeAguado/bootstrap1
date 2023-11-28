@@ -1,0 +1,35 @@
+.navbar-toggler-icon {
+  background-color: $color-principal; 
+  border-color: $font-principal;
+}
+
+.no-border {
+    border: none;
+}
+
+.container-boton {
+  border: $color-principal; 
+  border-radius: 50%;
+  bottom: 80px;
+  right: 180px;
+  padding: 25px;
+  position: fixed;
+  animation: efecto 3.5s infinite; 
+}
+
+.boton {
+  width: 150%;
+}
+
+.container-boton:hover {
+  transform: scale(1.1); 
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    box-shadow: 0 0 0 30px ($color-principal); 
+  }
+}
