@@ -1,0 +1,19 @@
+body {
+    @include flex-center;
+    background-image: url(../img/background-color-body.jpg);
+    background-size: cover ;
+    background-position: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.carousel-inner{
+    max-width: 100%;
+    z-index: 1;
+    }
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+}
