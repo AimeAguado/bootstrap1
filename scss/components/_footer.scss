@@ -1,10 +1,22 @@
 //FOOTER//
+<<<<<<< HEAD
+=======
+.footer {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center; // This property is for flex containers, not for the .footer element alone
+    justify-content: center; // This property is for flex containers, not for the .footer element alone
+    margin-top: 100px;
+}
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 
 #footer--redes {
     @include flex-center;
     background-color: black;
     list-style: none;
 }
+<<<<<<< HEAD
 
 .footer-items {
         @include flex-center;
@@ -41,11 +53,31 @@
 #copyright {
     margin: 0;
     padding: 1rem;
+=======
+.footer-items {
+    @include flex-center;
+    background-color: black;
+    list-style: none;
+    margin: 4%;
+    padding: 2% 2% 2% 2%;
+    @include flex-center;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+    color: white;
+}  
+
+#copyright {
+    padding: 5% 0% 0% 0%;
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
     color: white;
     background-color: black;
     text-align: center;
     @include flex-center;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 }
 
 ul {

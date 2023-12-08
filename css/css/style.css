@@ -12,6 +12,7 @@ img {
   width: 150px;
 }
 
+<<<<<<< HEAD
 nav {
   width: 100%;
 }
@@ -28,6 +29,8 @@ nav {
   top: 0;
 }
 
+=======
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 .nav-link {
   color: white;
 }
@@ -35,16 +38,42 @@ nav {
   color: white;
 }
 
+<<<<<<< HEAD
 #footer--redes {
   display: flex;
   justify-content: center;
   align-items: center;
+=======
+body {
+  width: width 100%;
+  height: height 100vh;
+  gap: gap none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#footer--redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
   background-color: black;
   list-style: none;
 }
 
 .footer-items {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -81,13 +110,43 @@ nav {
 #copyright {
   margin: 0;
   padding: 1rem;
+=======
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  list-style: none;
+  margin: 4%;
+  padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+  color: white;
+}
+
+#copyright {
+  padding: 5% 0% 0% 0%;
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
   color: white;
   background-color: black;
   text-align: center;
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   font-size: 18px;
+=======
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 }
 
 ul {
@@ -95,10 +154,19 @@ ul {
   padding-left: 1px;
 }
 
+<<<<<<< HEAD
+=======
+.navbar-toggler-icon {
+  background-color: #000;
+  border-color: rgb rgb(245, 248, 248);
+}
+
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 .no-border {
   border: none;
 }
 
+<<<<<<< HEAD
 .card {
   transform: scale(0.9);
 }
@@ -118,6 +186,20 @@ ul {
 
 .boton-whatsapp {
   width: 50px;
+=======
+.container-boton {
+  border: #000;
+  border-radius: 50%;
+  bottom: 80px;
+  right: 180px;
+  padding: 25px;
+  position: fixed;
+  animation: efecto 3.5s infinite;
+}
+
+.boton {
+  width: 150%;
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 }
 
 .container-boton:hover {
@@ -129,6 +211,7 @@ ul {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
   50% {
+<<<<<<< HEAD
     box-shadow: 0 0 0 15px #000;
   }
 }
@@ -152,5 +235,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+=======
+    box-shadow: 0 0 0 30px #000;
+  }
+}
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
 
 /*# sourceMappingURL=style.css.map */
