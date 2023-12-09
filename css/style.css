@@ -1,15 +1,5 @@
-img {
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-.btn-compra {
-  background-color: black;
-  color: white;
-}
-
-.logo {
-  width: 150px;
+.logo{
+    width: 150px;
 }
 
 nav {
