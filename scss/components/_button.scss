@@ -2,6 +2,10 @@
   border: none;
 }
 
+.btn-compra {
+  background-color: black;
+  color: white;
+}
 
 .container-boton {
   border: $color-principal;
@@ -16,13 +20,21 @@
   height: 50px;
 }
 
-.btn-compra {
-  background-color: black;
-  color: white;
-}
-
 .boton-whatsapp {
   width: 50px;
+}
+
+.container-boton:hover {
+  transform: scale(1.1);
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    box-shadow: 0 0 0 15px $color-principal;
+  }
 }
 
 .container-boton:hover {
