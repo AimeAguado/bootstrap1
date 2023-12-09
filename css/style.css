@@ -1,5 +1,15 @@
-.logo{
-    width: 150px;
+img {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.btn-compra {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  width: 150px;
 }
 
 nav {
@@ -89,10 +99,6 @@ ul {
   border: none;
 }
 
-.card {
-  transform: scale(0.9);
-}
-
 .container-boton {
   border: #000;
   border-radius: 70%;
@@ -104,6 +110,11 @@ ul {
   z-index: 2;
   width: 50px;
   height: 50px;
+}
+
+.btn-compra {
+  background-color: black;
+  color: white;
 }
 
 .boton-whatsapp {
@@ -143,3 +154,4 @@ body {
   flex-direction: column;
 }
 
+/*# sourceMappingURL=style.css.map */
