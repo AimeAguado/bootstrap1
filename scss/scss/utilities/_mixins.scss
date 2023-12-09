@@ -1,0 +1,26 @@
+@mixin flex-center {
+        display: flex;
+<<<<<<< HEAD
+        justify-content: center;
+        align-items: center;
+}
+
+
+=======
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+}
+
+>>>>>>> b73f9efb0b8df2ae2f42d04569f531f5c4d355ff
+@mixin sizes($width,$height,$gap){
+        width: $width;
+        height: $height;
+        gap: $gap;
+}
+
+@mixin button($button-bottom,$button-right){
+        button-bottom: $button-bottom;
+        button-right: $button-right;
+}

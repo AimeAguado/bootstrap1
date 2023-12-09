@@ -11,146 +11,50 @@ img {
 .logo {
   width: 150px;
 }
-
-nav {
-  width: 100%;
+.nav-link{
+    color: white
 }
-
-.navbar-toggler {
-  background-color: rgb(223, 222, 222);
-}
-
-.navbar {
-  top: 0;
-  min-height: 50px;
-  z-index: 1000;
-  position: relative;
-  top: 0;
-}
-
-.nav-link {
-  color: white;
+img{
+    width: 100%;
+    flex-wrap: wrap;
 }
 .nav-link:hover {
   color: white;
 }
-
-#footer--redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  list-style: none;
+.btn-compra{
+    background-color: black;
+    color: white;
 }
 
-.footer-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  list-style: none;
-  width: 100%;
-  flex-wrap: wrap;
-  text-align: left;
-  color: white;
-  flex: 0 0 50px;
-  padding: 0px;
-  font-size: 20px;
-  margin-bottom: 1rem;
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#footer--redes{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 150px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+#copyright{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.nosotros-list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+ul{
+    list-style: none;
 }
-
-.nosotros-item {
-  list-style: none;
-  width: 100%;
-  flex-wrap: wrap;
-  text-align: left;
-  color: white;
-  flex: 0 0 50px;
-  margin-right: 0%;
-  padding: 0px;
-  font-size: 20px;
-}
-
-#copyright {
-  margin: 0;
-  padding: 1rem;
-  color: white;
-  background-color: black;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 1px;
-}
-
-.no-border {
-  border: none;
-}
-
-.card {
-  transform: scale(0.9);
-}
-
-.container-boton {
-  border: #000;
-  border-radius: 70%;
-  bottom: 40px;
-  right: 130px;
-  padding: 0;
-  position: fixed;
-  animation: efecto 1.5s infinite;
-  z-index: 2;
-  width: 50px;
-  height: 50px;
-}
-
-.boton-whatsapp {
-  width: 50px;
-}
-
-.container-boton:hover {
-  transform: scale(1.1);
-}
-
-@keyframes efecto {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
-  }
-  50% {
-    box-shadow: 0 0 0 15px #000;
-  }
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/background-color-body.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  flex-direction: column;
-}
-
-.carousel-inner {
-  max-width: 100%;
-  z-index: 1;
-}
-
-.mapa {
-  display: flex;
-  flex-direction: column;
-}
-
-/*# sourceMappingURL=style.css.map */
