@@ -1,0 +1,17 @@
+@mixin flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+@mixin sizes($width,$height,$gap){
+        width: $width;
+        height: $height;
+        gap: $gap;
+}
+
+@mixin button($button-bottom,$button-right){
+        button-bottom: $button-bottom;
+        button-right: $button-right;
+}
